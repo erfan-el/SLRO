@@ -10,7 +10,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://raw.githubusercontent.com/erfan-el/dm-slr-ontology/main/DecisionMining-SLR_Ontology_v1.0.ttl> .
+@base <https://purl.archive.org/slr/decisionmining.owl> .
 
 <https://purl.archive.org/slr/decisionmining.owl> rdf:type owl:Ontology ;
                                                    rdfs:comment "An ontology for Systematic literature review on Decision Mining." .
