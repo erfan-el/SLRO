@@ -1,2 +1,2 @@
-# dm-slr-ontology
-An Ontology for Systematic Literature Review on Decision Mining.
+# SLR Ontology(SLRO) on Decision Mining
+An Ontology for Systematic Literature Review (SLR) on Decision Mining.
