@@ -4,7 +4,7 @@
 >>> Role: DM practitioner
 
 - My case involves temporal decisions. How can I mine decision rules involving temporal aspects?
-**Answer: targetsDecisionType value TemporalDecisions
+**DL Query: targetsDecisionType value TemporalDecisions
 
 
 - How can I extend my event log with attributes needed for accurate decision rules?
