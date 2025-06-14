@@ -13,7 +13,7 @@
 @base <https://purl.archive.org/slr/decisionmining.owl#> .
 
 <https://purl.archive.org/slr/decisionmining.owl> rdf:type owl:Ontology ;
-                                                   rdfs:comment "An ontology for Systematic literature review on Decision Mining. version 1.1" .
+                                                   rdfs:comment "Systematic Literature Review Ontology on Decision Mining, together with a Knowledge Graph instance. version 1.1" .
 
 #################################################################
 #    Datatypes
