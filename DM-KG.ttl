@@ -10,7 +10,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix fabio: <http://purl.org/spar/fabio/> .
 @prefix datacite: <http://purl.org/spar/datacite/> .
-@base <https://purl.archive.org/slr/decisionmining.owl> .
+@base <https://purl.archive.org/slr/decisionmining.owl#> .
 
 <https://purl.archive.org/slr/decisionmining.owl> rdf:type owl:Ontology ;
                                                    rdfs:comment "Systematic Literature Review Ontology on Decision Mining, together with a Knowledge Graph instance. version 1.1" .
@@ -69,6 +69,7 @@ datacite:usesIdentifierScheme rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/vocab/frbr/core#embodiment
 frbr:embodiment rdf:type owl:ObjectProperty ;
+                owl:inverseOf :embodiedIn ;
                 rdfs:domain [ rdf:type owl:Class ;
                               owl:unionOf ( fabio:Dataset
                                             fabio:Expression
@@ -79,6 +80,7 @@ frbr:embodiment rdf:type owl:ObjectProperty ;
 
 ###  http://purl.org/vocab/frbr/core#realization
 frbr:realization rdf:type owl:ObjectProperty ;
+                 owl:inverseOf :isRealizedBy ;
                  rdfs:domain fabio:Work ;
                  rdfs:range fabio:Expression .
 
@@ -91,6 +93,7 @@ prov:used rdf:type owl:ObjectProperty ;
 
 ###  https://purl.archive.org/slr/decisionmining.owl#addressesProblem
 :addressesProblem rdf:type owl:ObjectProperty ;
+                  owl:inverseOf :problemAddressedBy ;
                   rdfs:domain fabio:Work ;
                   rdfs:range :DMProblem .
 
@@ -99,6 +102,15 @@ prov:used rdf:type owl:ObjectProperty ;
 :causesProblem rdf:type owl:ObjectProperty ;
                rdfs:domain :ProcessModelIssue ;
                rdfs:range :DMProblem .
+
+
+###  https://purl.archive.org/slr/decisionmining.owl#embodiedIn
+:embodiedIn rdf:type owl:ObjectProperty ;
+            rdfs:range [ rdf:type owl:Class ;
+                         owl:unionOf ( fabio:Dataset
+                                       fabio:Expression
+                                     )
+                       ] .
 
 
 ###  https://purl.archive.org/slr/decisionmining.owl#hasPossibleCause
@@ -121,6 +133,19 @@ prov:used rdf:type owl:ObjectProperty ;
             rdfs:range :DMTool .
 
 
+###  https://purl.archive.org/slr/decisionmining.owl#isModelUsedByWork
+:isModelUsedByWork rdf:type owl:ObjectProperty ;
+                   owl:inverseOf :usesModel .
+
+
+###  https://purl.archive.org/slr/decisionmining.owl#isRealizedBy
+:isRealizedBy rdf:type owl:ObjectProperty .
+
+
+###  https://purl.archive.org/slr/decisionmining.owl#problemAddressedBy
+:problemAddressedBy rdf:type owl:ObjectProperty .
+
+
 ###  https://purl.archive.org/slr/decisionmining.owl#producesModel
 :producesModel rdf:type owl:ObjectProperty ;
                rdfs:domain fabio:Work ;
@@ -129,7 +154,7 @@ prov:used rdf:type owl:ObjectProperty ;
 
 ###  https://purl.archive.org/slr/decisionmining.owl#proposesSolution
 :proposesSolution rdf:type owl:ObjectProperty ;
-                  owl:inverseOf <https://purl.archive.org/slr/decisionmining.owl/solutionProposedBy> ;
+                  owl:inverseOf :solutionProposedBy ;
                   rdfs:domain fabio:Work ;
                   rdfs:range :DMSolution .
 
@@ -138,6 +163,10 @@ prov:used rdf:type owl:ObjectProperty ;
 :relatesToDecisionType rdf:type owl:ObjectProperty ;
                        rdfs:domain :DMProblem ;
                        rdfs:range :TypeOfDecision .
+
+
+###  https://purl.archive.org/slr/decisionmining.owl#solutionProposedBy
+:solutionProposedBy rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.archive.org/slr/decisionmining.owl#solves
@@ -186,10 +215,6 @@ prov:used rdf:type owl:ObjectProperty ;
 
 ###  https://purl.archive.org/slr/decisionmining.owl/proOf
 <https://purl.archive.org/slr/decisionmining.owl/proOf> rdf:type owl:ObjectProperty .
-
-
-###  https://purl.archive.org/slr/decisionmining.owl/solutionProposedBy
-<https://purl.archive.org/slr/decisionmining.owl/solutionProposedBy> rdf:type owl:ObjectProperty .
 
 
 ###  https://purl.archive.org/slr/decisionmining.owl/solvedBy
@@ -913,6 +938,8 @@ datacite:doi rdf:type owl:NamedIndividual .
                         :DecisionModel ;
                owl:sameAs :DecisionRule .
 
+
+###  https://purl.archive.org/slr/decisionmining.owl#DecisionRule
 
 ###  https://purl.archive.org/slr/decisionmining.owl#DecisionMinerPlugin
 :DecisionMinerPlugin rdf:type owl:NamedIndividual ,
@@ -1696,6 +1723,7 @@ datacite:doi rdf:type owl:NamedIndividual .
                     :addressesProblem :ModelSuitability ;
                     :producesModel :DMN ;
                     :proposesSolution :UseDeclarativeModels ;
+                    :usesModel :DeclarativeProcessModel ;
                     <https://purl.archive.org/slr/decisionmining.owl/presents> :DeciClareMiner .
 
 
@@ -2275,7 +2303,6 @@ datacite:doi rdf:type owl:NamedIndividual .
 :Scheibel_et_al.Jun_2022_DOI rdf:type owl:NamedIndividual ,
                                       datacite:PrimaryResourceIdentifier ;
                              datacite:usesIdentifierScheme datacite:doi ;
-                             frbr:embodiment :bscheibel_edt-ts_Git_Manifestation ;
                              rdf:value "10.1007/978-3-031-07472-1_1" .
 
 
@@ -2283,6 +2310,7 @@ datacite:doi rdf:type owl:NamedIndividual .
 :Scheibel_et_al.Jun_2022_Expression rdf:type owl:NamedIndividual ,
                                              fabio:ConferencePaper ;
                                     datacite:hasIdentifier :Scheibel_et_al.Jun_2022_DOI ;
+                                    frbr:embodiment :bscheibel_edt-ts_Git_Manifestation ;
                                     fabio:hasPublicationYear "2022"^^xsd:year ;
                                     rdfs:comment "[8]  Beate Scheibel and Stefanie Rinderle-Ma. “Decision Mining with Time Series Data Based on Automatic Feature Generation”. In: Advanced Information Systems Engineering. Springer Inter- national Publishing, 2022, pp. 3–18. doi: 10.1007/978-3-031-07472-1_1." .
 
@@ -2655,4 +2683,4 @@ datacite:doi rdf:type owl:NamedIndividual .
                                                                           rdf:value "10.4121/uuid:270fd440-1057-4fb9-89a9-b699b47990f5" .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
