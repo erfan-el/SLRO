@@ -27,7 +27,7 @@ After installing Protégé, you can now open the ontology project.
 3. In the file browser, navigate to the folder where you saved the ontology file.
 4. Select the file named **DM-KG.ttl** and click **Open**.
 
-![Opening ontology in Protégé](IMAGE2)
+![Opening ontology in Protégé](Protégé Tutorial/1. open-ontology-file.png)
 
 > 📁 This file is in Turtle (.ttl) format, which is a common serialization for RDF/OWL ontologies.
 
