@@ -156,7 +156,7 @@ ORDER BY DESC(?numArticles)
 
 Here is the steps of the SPARQL Query:
 
-*WHERE section:
+* WHERE section:
 
 1. Find articles and check the type:
 It looks for any entity (i.e., ?article) that has a type (a ?type, such as ScholarlyWork), and then ensures that this ?type is a subclass (i.e., rdfs:subClassOf*) of the fabio:Work class.
@@ -164,7 +164,7 @@ It looks for any entity (i.e., ?article) that has a type (a ?type, such as Schol
 2. Find the problem:
 For each ?article, it checks which problem (i.e., ?problem) it addresses using the property slr:addressesProblem.
 
-*SELECT section:
+* SELECT section:
 
 3. Find each unique problem:
 It lists every ?problem that was mentioned in the ?article.
@@ -177,7 +177,7 @@ For each ?problem, it counts the number of ?article instances (i.e., ?numArticle
 5. Group results:
 It groups the results by each distinct ?problem so that the count of articles is calculated per problem.
 
-*ORDER BY section:
+* ORDER BY section:
 
 6. Sort the results:
 It sorts the results in descending order based on ?numArticles, showing the problems addressed by the most articles first.
@@ -293,7 +293,7 @@ WHERE {
 
 Here are the steps of the SPARQL Query:
 
-*WHERE section:
+* WHERE section:
 
 1. Find articles and check the type:
 It looks for any entity (i.e., ?article) that has a type (i.e., ?type), and then ensures that this ?type is a subclass (i.e., rdfs:subClassOf*) of the fabio:Work class.
@@ -301,7 +301,7 @@ It looks for any entity (i.e., ?article) that has a type (i.e., ?type), and then
 2. Find the problem:
 For each ?article, it checks which problem (i.e., ?problem) it addresses using the property slr:addressesProblem.
 
-*SELECT section:
+* SELECT section:
 
 3.  Show each article and its problem:
 Return lists of the ?article and the ?problem it addresses.
@@ -310,8 +310,7 @@ Return lists of the ?article and the ?problem it addresses.
 ### List all problems, papers and their authors:
 
 Run the SPARQL query:
-````
-
+```
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -328,12 +327,11 @@ WHERE {
 }
 GROUP BY ?problem ?paper
 ORDER BY ?problem
-
 ```
 
 The steps of the SPARQL Query:
 
-*WHERE section:
+* WHERE section:
 
 1. Find papers that address problems:
 It identifies entities (i.e., ?paper) and the problems (i.e., ?problem) they address, using property slr:addressesProblem. 
@@ -344,8 +342,7 @@ Then, links each ?paper to its author(s) (i.e., ?author) via property dct:creato
  3. Get author names:
 Next, it retrieves the readable name of each ?author  (i.e., the label of instances).
 
-*SELECT section:
+* SELECT section:
 
 4. Return the problem, paper, and list of authors:
 It returns a list of ?problem, ?paper, and a comma-separated list of all distinct ?author names for that ?paper (using GROUP_CONCAT).
-
