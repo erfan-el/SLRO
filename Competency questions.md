@@ -135,8 +135,8 @@ DMTool
 ### What are the most well-studied problems in DM, ranked by their coverage in the literature?
 
 Run the SPARQL Query:
-
 ```
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -153,6 +153,7 @@ WHERE {
 GROUP BY ?problem
 ORDER BY DESC(?numArticles)
 ```
+
 Here is the steps of the SPARQL Query:
 
 *WHERE section:
@@ -184,7 +185,7 @@ It sorts the results in descending order based on ?numArticles, showing the prob
 
 *Note: The * is a wildcard that means any depth of subclass (direct or indirect).
 **Note: STR() function turns that number into a string.
-```
+
 
 ### What different types of decisions have been studied in DM literature?
 
@@ -192,8 +193,9 @@ Run the DL query:
 ```
 TypeOfDecision
 ```
+
 Which asks for list all _TypeOfDecision_ (that is, the classified types of decision in process) that are used by the reviewed papers.
-```
+
 
 ### Which existing works have applied neural networks for DM?
 
@@ -208,7 +210,7 @@ Next, in their property assertions, you can find _solutionProposedBy_ relations 
 Alternatively, in the outer query, the _proposesSolution_ relations are used to directly query for all _Works_ instances that apply neural networks for DM.
 
 This query returns the _Work_ instance: **Park_et_al.2023**
-```
+
 
 ### What are the problems tackled by papers with Rinderle-Ma as a co-author over the years?
 
@@ -223,18 +225,17 @@ Next, in their property assertions, you can find _addressesProblem_ relations wi
 Alternatively, in the outer query, the _problemAddressedBy_ relations are used to directly query for all these _DMProblem_ instances that are addressed in _Work_ instances, authored or co-authored by Stefanie Rinderle-Ma.
 
 This query returns the _DMProblem_ instances such as: **DynamicDecisionRules**, and **Instance-spanningConstraint**.
-```
+
 
 ### What are the types of algorithms applied for DM? (Essentially, list all algorithms.)
 
 Run the DL query:
 ```
-
 DMAlgorithm
 ```
 
 Which simply returns all algorithms mentioned for DM in reviewed papers.
-```
+
 
 ### I am interested in applying my new DM approach in the healthcare sector. Are there any existing datasets for evaluation in that domain?
 
@@ -245,7 +246,7 @@ dcterms:subject value Healthcare
 
 Which asks for _Datasets_ that belong to the **Healthcare** (a _IndustryDomain_ instance).  
 This query returns the _Dataset_ instances such as: **HealthRecord_EHR_SystemDataset**, and **SepsisDataset**.
-```
+
 
 ### Where can I find the existing implementations of injecting time series data?
 
@@ -264,15 +265,16 @@ Again, in their property assertions, you can find _embodiment_ relations with _E
 Alternatively, in the outermost part of the query, the _embodiedIn_ relations are used to directly query for all the _Manifestation_ instances that correspond with the returned _Expression_ instances.
 
 The whole query returns a _Manifestation_ instance: **bscheibel_edt-ts_Git_Manifestation**.
-```
 
-```
+
+
 ## Other SPARQL Queries:
 
 ### List of articles and problems they address
 
 Run the SPARQL query:
 ```
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -286,6 +288,7 @@ WHERE {
     ?type rdfs:subClassOf* fabio:Work .
     ?article slr:addressesProblem ?problem .
 }
+
 ```
 
 Here are the steps of the SPARQL Query:
@@ -302,12 +305,13 @@ For each ?article, it checks which problem (i.e., ?problem) it addresses using t
 
 3.  Show each article and its problem:
 Return lists of the ?article and the ?problem it addresses.
-```
+
 
 ### List all problems, papers and their authors:
 
 Run the SPARQL query:
 ````
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -324,6 +328,7 @@ WHERE {
 }
 GROUP BY ?problem ?paper
 ORDER BY ?problem
+
 ```
 
 The steps of the SPARQL Query:
@@ -343,4 +348,4 @@ Next, it retrieves the readable name of each ?author  (i.e., the label of instan
 
 4. Return the problem, paper, and list of authors:
 It returns a list of ?problem, ?paper, and a comma-separated list of all distinct ?author names for that ?paper (using GROUP_CONCAT).
-```
+
