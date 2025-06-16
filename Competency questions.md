@@ -1,5 +1,4 @@
 # Competency questions for DM-KG
----
 
 ## Role: DM practitioner
 
@@ -130,9 +129,8 @@ Simply run the DL query:
 ```
 DMTool
 ```
----
+
 ## Role: DM researcher
----
 
 ### What are the most well-studied problems in DM, ranked by their coverage in the literature?
 
@@ -267,7 +265,7 @@ Again, in their property assertions, you can find _embodiment_ relations with _E
 Alternatively, in the outermost part of the query, the _embodiedIn_ relations are used to directly query for all the _Manifestation_ instances that correspond with the returned _Expression_ instances.
 
 The whole query returns a _Manifestation_ instance: **bscheibel_edt-ts_Git_Manifestation**.
----
+
 
 ## Other SPARQL Queries:
 
