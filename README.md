@@ -6,6 +6,8 @@ The [`DM-KG.ttl`](DM-KG.ttl) file includes SLRO-DM and its instantiation as the 
 
 The [`Competency questions.md`](<Competency questions.md>) file lists a number of competency questions for DM practitioners and researchers.
 
+The [`DM-KG_object-properties.md`](<DM-KG_object-properties.md>) provides a detailed overview of the object properties defined in the Ontology.
+
 Checkout [Protégé Tutorial](<Protégé Tutorial/Protégé Tutorial.md>) for a quick tutorial on how to use Protégé to navigate the DM-KG and execute the compentency questions!
 
 The persistent URL (PURL) are as follows (currently pointing to the same artifact):
