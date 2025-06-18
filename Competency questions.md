@@ -206,6 +206,7 @@ proposesSolution some (usesAlgorithm value NeuralNetworks)
 
 The inner query asks for _DMSolutions_ that used **NeuralNetworks** (an _Algorithm_ instance).
 This query returns a _DMSolutions_ that utilize neural networks: **AdvancedML**.
+
 Next, in their property assertions, you can find _solutionProposedBy_ relations with _Works_ that proposed the solution.
 Alternatively, in the outer query, the _proposesSolution_ relations are used to directly query for all _Works_ instances that apply neural networks for DM.
 
