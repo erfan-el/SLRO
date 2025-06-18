@@ -221,6 +221,7 @@ problemAddressedBy some (dcterms:creator value 'Stefanie Rinderle-Ma')
 
 The inner query asks for _Works_ that **Stefanie Rinderle-Ma** (an _Author_ instance) is listed as one of the creators.
 This query returns a set of _Works_ such as: **Dunkl_et_al.2015** and **Scheibel_et_al.Jun_2022**.
+
 Next, in their property assertions, you can find _addressesProblem_ relations with _Work_ that address the problem.
 Alternatively, in the outer query, the _problemAddressedBy_ relations are used to directly query for all these _DMProblem_ instances that are addressed in _Work_ instances, authored or co-authored by Stefanie Rinderle-Ma.
 
