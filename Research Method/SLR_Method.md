@@ -1,12 +1,12 @@
 
 # Methods
 
-This research used a Systematic Literature Review approach inspired by [Kitchenham et al. (2015)][1], with the process steps outlined in **Figure 1**.
+This research used a Systematic Literature Review approach inspired by Kitchenham et al. (2015) [1], with the process steps outlined in **Figure 1**.
 
 **Figure 1.** Systematic Literature Review Process Steps 
 ![Systematic Literature Review Process Steps](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/Research%20Method%20Process.png)
 
-Also, the steps related to the selection of papers are documented in the PRISMA diagram (Preferred Reporting Items for Systematic Reviews and Meta-Analyses [Page et al. (2021)][2]) shown in **Figure 2**.
+Also, the steps related to the selection of papers are documented in the PRISMA diagram (Preferred Reporting Items for Systematic Reviews and Meta-Analyses Page et al. 2021) [2] shown in **Figure 2**.
 
 **Figure 2.** PRISMA diagram describing the selection of primary studies 
 ![PRISMA diagram](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/PRISMA%20Model.png)
@@ -46,7 +46,7 @@ Articles meeting the following criteria were excluded from the systematic review
 
 The following types of articles were included via manual search:
 
-- The seminal work by Rozinat et al. (2006), despite being a technical report.
+- The seminal work by Rozinat et al. (2006) [3], despite being a technical report.
 - Articles found through backward snowballing from references.
 - Articles related to DM plugins in ProM, identified from the [ProM plugin list](https://promtools.org/development/prom-6-10-release/prom-6-10-plug-in-variants/).
 
@@ -97,3 +97,5 @@ A total of 25 articles were selected for final review from an initial collection
 [1] Barbara Ann Kitchenham, David Budgen, and Pearl Brereton. *Evidence-based software engineering and systematic reviews*. 1st Edition. Vol. 4. Chapman and Hall/CRC, 2015, p. 433. ISBN: 9780429157653. DOI: [10.1201/b19467](https://doi.org/10.1201/b19467)
 
 [2] Matthew J Page et al. “The PRISMA 2020 statement: an updated guideline for reporting systematic reviews”. In: *BMJ* 372 (2021). DOI: [10.1136/bmj.n71](https://www.bmj.com/content/372/bmj.n71). [PDF](https://www.bmj.com/content/372/bmj.n71.full.pdf)
+
+[3] A. Rozinat and W.M.P. van der Aalst. *Decision mining in business processes*. Eindhoven: Technische Universiteit Eindhoven, 2006. [PDF](https://research.tue.nl/files/1750830/609514.pdf)
