@@ -3,11 +3,13 @@
 
 This research used a Systematic Literature Review approach inspired by [Kitchenham et al. (2015)][1], with the process steps outlined in **Figure 1**. Also, the steps related to the selection of papers are documented in the PRISMA diagram (Preferred Reporting Items for Systematic Reviews and Meta-Analyses [Page et al. (2021)][2]) shown in **Figure 2**.
 
+**Figure 1.** Systematic Literature Review Process Steps 
 ![Systematic Literature Review Process Steps](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/Research%20Method%20Process.png)
 
 We conducted an automated search on four databases: Scopus, Web of Science, IEEE Xplore, and ACM Digital Library. As shown in Table 1, the search keywords can be categorized as either related to PM or DM. In the queries, the `*` symbol is used to substitute multiple characters within a word. Proximity operators such as `W/2` and `NEAR/2` yield results when two words or phrases appear within two words of each other. The operator `EXCLUDE(DOCTYPE, 'cr')` is used in Scopus to filter out articles classified as Conference Reviews. Table 2 shows the search queries per database, together with the number of results and search dates. The queries were customized according to each database's search capabilities. We further conducted a limited manual search to incorporate relevant articles that were not found in the database search; we discuss this in the Inclusion Criteria section.
 
-![PRISMA diagram describing the selection of primary studies](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/PRISMA%20Model.png)
+**Figure 2.** PRISMA diagram describing the selection of primary studies 
+![PRISMA diagram](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/PRISMA%20Model.png)
 
 ### Table 1. Keywords and synonyms used in the automated search
 
