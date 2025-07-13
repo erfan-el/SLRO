@@ -63,14 +63,14 @@ A total of 25 articles were selected for final review from an initial collection
 |   Ref. | Authors                     | Title                                                                                                           |   Year | Type   |
 |--------|-----------------------------|-----------------------------------------------------------------------------------------------------------------|--------|--------|
 |    [3] | Rozinat and Van Der Aalst   | Decision mining in business processes                                                                           |   2006 | R      |
-|   [40] | Rozinat and Van Der Aalst   | DM in ProM                                                                                                      |   2006 | C      |
+|    [4] | Rozinat and Van Der Aalst   | Decision Mining in ProM                                                                                         |   2006 | C      |
 |    [5] | Crerie et al.               | Discovering business rules through process mining                                                               |   2009 | C      |
 |    [6] | Jareevongpiboon and Janecek | Enhancing decision patterns discovered by process mining with semantic related data                             |   2011 | C      |
 |   [16] | De Leoni and Van Der Aalst  | Data-aware process mining: Discovering decisions in processes using alignments                                  |   2013 | C      |
-|   [14] | Sarno et al.                | DM for multi choice workflow patterns                                                                           |   2013 | C      |
+|   [14] | Sarno et al.                | Decision Mining for multi choice workflow patterns                                                              |   2013 | C      |
 |   [19] | Sarno et al.                | Mining decision to discover the relation of rules among decision points in a non-free choice construct          |   2014 | C      |
 |   [20] | Dunkl et al.                | A method for analyzing time series data in process mining: Application and extension of decision point analysis |   2015 | C      |
-|   [12] | Mannhardt et al.            | DM revisited -- Discovering overlapping rules                                                                   |   2016 | C      |
+|   [12] | Mannhardt et al.            | Decision Mining revisited -- Discovering overlapping rules                                                      |   2016 | C      |
 |   [21] | Winter and Rinderle-Ma      | Discovering Instance-Spanning Constraints from Process Execution Logs Based on Classification Techniques        |   2017 | C      |
 |   [22] | Khemiri et al.              | Improving business process in semiconductor manufacturing by discovering business rules                         |   2018 | C      |
 |   [18] | Mertens et al.              | Discovering health-care processes using DeciClareMiner                                                          |   2018 | J      |
@@ -82,7 +82,7 @@ A total of 25 articles were selected for final review from an initial collection
 |   [15] | Mertens et al.              | Integrated Declarative Process and Decision Discovery of the Emergency Care Process                             |   2022 | J      |
 |   [26] | Nguyen Chan et al.          | Design and deployment of a customer journey management system: the CJMA approach                                |   2022 | C      |
 |   [11] | Scheibel and Rinderle-Ma    | Online DM and Monitoring in Process-Aware Information Systems                                                   |   2022 | C      |
-|   [10] | Scheibel and Rinderle-Ma    | DM with Time Series Data Based on Automatic Feature Generation                                                  |   2022 | C      |
+|   [10] | Scheibel and Rinderle-Ma    | Decision Mining with Time Series Data Based on Automatic Feature Generation                                     |   2022 | C      |
 |   [27] | Lukassen et al.             | Discovering Explicit Scale-Up Criteria in Crisis Response with DM                                               |   2023 | C      |
 |    [9] | Park et al.                 | Explainable Predictive DM for Operational Support                                                               |   2023 | C      |
 |   [13] | Portolani et al.            | A Novel DM Method Considering Multiple Model Paths                                                              |   2023 | C      |
