@@ -10,6 +10,8 @@ The [`DM-KG_object-properties.md`](<DM-KG_object-properties.md>) provides a deta
 
 Checkout [Protégé Tutorial](<Protégé Tutorial/Protégé Tutorial.md>) for a quick tutorial on how to use Protégé to navigate the DM-KG and execute the compentency questions!
 
+For details on the methodology used in this study, please refer to the [Research Method](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/Research%20Method.md).\
+
 The persistent URL (PURL) are as follows (currently pointing to the same artifact):
 - SLRO: [https://purl.archive.org/slro.owl](https://purl.archive.org/slro.owl)
 - SLRO-DM and DM-KG: [https://purl.archive.org/slr/decisionmining.owl](https://purl.archive.org/slr/decisionmining.owl)
