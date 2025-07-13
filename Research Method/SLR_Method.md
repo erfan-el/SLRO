@@ -7,7 +7,7 @@ This research used a Systematic Literature Review approach inspired by Kitchenha
 
 We conducted an automated search on four databases: Scopus, Web of Science, IEEE Xplore, and ACM Digital Library. As shown in Table 1, the search keywords can be categorized as either related to PM or DM. In the queries, the `*` symbol is used to substitute multiple characters within a word. Proximity operators such as `W/2` and `NEAR/2` yield results when two words or phrases appear within two words of each other. The operator `EXCLUDE(DOCTYPE, 'cr')` is used in Scopus to filter out articles classified as Conference Reviews. Table 2 shows the search queries per database, together with the number of results and search dates. The queries were customized according to each database's search capabilities. We further conducted a limited manual search to incorporate relevant articles that were not found in the database search; we discuss this in the Inclusion Criteria section.
 
-![PRISMA diagram describing the selection of primary studies](Research Method/PRISMA Model.png)
+![PRISMA diagram describing the selection of primary studies](PRISMA Model.png)
 
 ### Table 1. Keywords and synonyms used in the automated search
 
