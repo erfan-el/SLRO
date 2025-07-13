@@ -1,7 +1,7 @@
 
 # Methods
 
-This research used a Systematic Literature Review approach inspired by Kitchenham et al., with the process steps outlined in Figure 1. Also, the steps related to the selection of papers are documented in the PRISMA diagram (Preferred Reporting Items for Systematic Reviews and Meta-Analyses) shown in Figure 2.
+This research used a Systematic Literature Review approach inspired by [Kitchenham et al. (2015)][1], with the process steps outlined in **Figure 1**. Also, the steps related to the selection of papers are documented in the PRISMA diagram (Preferred Reporting Items for Systematic Reviews and Meta-Analyses [Page et al. (2021)][2]) shown in **Figure 2**.
 
 ![Systematic Literature Review Process Steps](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/Research%20Method%20Process.png)
 
@@ -18,12 +18,13 @@ We conducted an automated search on four databases: Scopus, Web of Science, IEEE
 
 ### Table 2. The search queries of the automated search process
 
-| ID | Search query | Database | Result | Search Date |
-|----|--------------|----------|--------|-------------|
-| 1 | `TITLE-ABS-KEY ((“process mining” OR “process discovery”) AND ((decision* OR “business rule*”) W/2 (mining OR extracti* OR discover* OR retriev*))) AND (EXCLUDE (DOCTYPE , “cr”))` | Scopus | 91 | 2024-05-23 |
-| 2 | `TS=((“process mining” OR “process discovery”) AND ((decision* OR “business rule*”) NEAR/2 (mining OR extracti* OR discover* OR retriev*)))` | Web of Science | 52 | 2024-05-25 |
-| 3 | Complex NEAR/2 queries for metadata fields in IEEE Xplore | IEEE Xplore | 68 | 2024-06-04 |
-| 4 | `AllField:("process mining" AND ("decision mining" OR "decision discovery" OR "business rule"))` | ACM | 32 | 2024-06-05 |
+| ID | Search query | Database | Result |
+|----|--------------|----------|--------|
+| 1 | `TITLE-ABS-KEY ((“process mining” OR “process discovery”) AND ((decision* OR “business rule*”) W/2 (mining OR extracti* OR discover* OR retriev*))) AND (EXCLUDE (DOCTYPE , “cr”))` | Scopus | 91 |
+| 2 | `TS=((“process mining” OR “process discovery”) AND ((decision* OR “business rule*”) NEAR/2 (mining OR extracti* OR discover* OR retriev*)))` | Web of Science | 52 |
+| 3 | Complex NEAR/2 queries for metadata fields in IEEE Xplore | IEEE Xplore | 68 |
+| 4 | `AllField:("process mining" AND ("decision mining" OR "decision discovery" OR "business rule"))` | ACM | 32 |
+
 
 ## Exclusion and Inclusion Criteria
 
@@ -84,3 +85,11 @@ A total of 25 articles were selected for final review from an initial collection
 |     25 | Banham et al.               | Comparing Conformance Checking for DM: An Axiomatic Approach                                                    |   2024 | J      |
 
 > *Note: Types - J = Journal, C = Conference, R = Report*
+
+
+
+## References
+
+[1] Barbara Ann Kitchenham, David Budgen, and Pearl Brereton. *Evidence-based software engineering and systematic reviews*. 1st Edition. Vol. 4. Chapman and Hall/CRC, 2015, p. 433. ISBN: 9780429157653. DOI: [10.1201/b19467](https://doi.org/10.1201/b19467)
+
+[2] Matthew J Page et al. “The PRISMA 2020 statement: an updated guideline for reporting systematic reviews”. In: *BMJ* 372 (2021). DOI: [10.1136/bmj.n71](https://www.bmj.com/content/372/bmj.n71). [PDF](https://www.bmj.com/content/372/bmj.n71.full.pdf)
