@@ -1,5 +1,5 @@
 
-# Methods
+# Research Method
 
 This research used a Systematic Literature Review approach inspired by Kitchenham et al. (2015) [1], with the process steps outlined in **Figure 1**.
 
