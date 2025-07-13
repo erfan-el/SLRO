@@ -99,3 +99,51 @@ A total of 25 articles were selected for final review from an initial collection
 [2] Matthew J Page et al. “The PRISMA 2020 statement: an updated guideline for reporting systematic reviews”. In: *BMJ* 372 (2021). DOI: [10.1136/bmj.n71](https://www.bmj.com/content/372/bmj.n71). [PDF](https://www.bmj.com/content/372/bmj.n71.full.pdf)
 
 [3] A. Rozinat and W.M.P. van der Aalst. *Decision mining in business processes*. Eindhoven: Technische Universiteit Eindhoven, 2006. [PDF](https://research.tue.nl/files/1750830/609514.pdf)
+
+[4] A. Rozinat and W.M.P. van der Aalst. “Decision Mining in ProM”. In: *Business Process Management*. Springer Berlin Heidelberg, 2006, pp. 420–425. DOI: [10.1007/11841760_33](https://doi.org/10.1007/11841760_33)
+
+[5] Raphael Crerie, Fernanda Araujo Baião, and Flávia Maria Santoro. “Discovering Business Rules through Process Mining”. In: *Enterprise, Business-Process and Information Systems Modeling*. Springer Berlin Heidelberg, 2009, pp. 136–148. DOI: [10.1007/978-3-642-01862-6_12](https://doi.org/10.1007/978-3-642-01862-6_12)
+
+[6] W. Jareevongpiboon and P. Janecek. “Enhancing decision patterns discovered by process mining with semantic related data”. In: *ICEB 2011 Proceedings*. AISeL, 2011, pp. 12–19. [URL](https://aisel.aisnet.org/iceb2011/5/)
+
+[7] J. De Smedt, F. Hasić, S.K.L.M. vanden Broucke, and J. Vanthienen. “Holistic discovery of decision models from process execution data”. In: *Knowledge-Based Systems* 183 (2019), p. 104866. DOI: [10.1016/j.knosys.2019.104866](https://doi.org/10.1016/j.knosys.2019.104866)
+
+[8] A. Banham et al. “Comparing Conformance Checking for Decision Mining: An Axiomatic Approach”. In: *IEEE Access* 12 (2024), pp. 60276–60298. DOI: [10.1109/ACCESS.2024.3391234](https://doi.org/10.1109/ACCESS.2024.3391234)
+
+[9] Gyunam Park et al. “Explainable Predictive Decision Mining for Operational Support”. In: *ICSOC 2022 Workshops*. Springer Nature Switzerland, 2023, pp. 66–79. DOI: [10.1007/978-3-031-26507-5_6](https://doi.org/10.1007/978-3-031-26507-5_6)
+
+[10] Beate Scheibel and Stefanie Rinderle-Ma. “Decision Mining with Time Series Data Based on Automatic Feature Generation”. In: *Advanced Information Systems Engineering*. Springer International Publishing, 2022, pp. 3–18. DOI: [10.1007/978-3-031-07472-1_1](https://doi.org/10.1007/978-3-031-07472-1_1)
+
+[11] Beate Scheibel and Stefanie Rinderle-Ma. “Online Decision Mining and Monitoring in Process-Aware Information Systems”. In: *Conceptual Modeling*. Springer, 2022, pp. 271–280. DOI: [10.1007/978-3-031-17995-2_19](https://doi.org/10.1007/978-3-031-17995-2_19)
+
+[12] F. Mannhardt et al. “Decision mining revisited – Discovering overlapping rules”. In: *Advanced Information Systems Engineering*. Springer, 2016, pp. 377–392. DOI: [10.1007/978-3-319-39696-5_23](https://doi.org/10.1007/978-3-319-39696-5_23)
+
+[13] Pietro Portolani et al. “A Novel Decision Mining Method Considering Multiple Model Paths”. In: *Enterprise, Business-Process and Information Systems Modeling*. Springer, 2023, pp. 79–87. DOI: [10.1007/978-3-031-34241-7_6](https://doi.org/10.1007/978-3-031-34241-7_6)
+
+[14] Riyanarto Sarno et al. “Decision mining for multi choice workflow patterns”. In: *IC3INA 2013*. IEEE, 2013, pp. 337–342. DOI: [10.1109/IC3INA.2013.6819197](https://doi.org/10.1109/IC3INA.2013.6819197)
+
+[15] S. Mertens et al. “Integrated Declarative Process and Decision Discovery of the Emergency Care Process”. In: *Information Systems Frontiers* 24.1 (2022), pp. 305–327. DOI: [10.1007/s10796-020-10078-5](https://doi.org/10.1007/s10796-020-10078-5)
+
+[16] M. de Leoni and W.M.P. van der Aalst. “Data-aware process mining: discovering decisions in processes using alignments”. In: *ACM SAC 2013*. ACM, pp. 1454–1461. DOI: [10.1145/2480362.2480633](https://doi.org/10.1145/2480362.2480633)
+
+[17] Toon Jouck et al. “A Framework to Evaluate and Compare Decision-Mining Techniques”. In: *BPM Workshops 2019*. Springer, pp. 482–493. DOI: [10.1007/978-3-030-11641-5_38](https://doi.org/10.1007/978-3-030-11641-5_38)
+
+[18] S. Mertens, F. Gailly, and G. Poels. “Discovering health-care processes using DeciClareMiner”. In: *Health Systems* 7.3 (2018), pp. 195–211. DOI: [10.1080/20476965.2017.1405876](https://doi.org/10.1080/20476965.2017.1405876)
+
+[19] Riyanarto Sarno et al. “Mining decision to discover the relation of rules among decision points in a non-free choice construct”. In: *ICTS 2014*. IEEE, pp. 53–58. DOI: [10.1109/ICTS.2014.7010557](https://doi.org/10.1109/ICTS.2014.7010557)
+
+[20] Reinhold Dunkl et al. “A Method for Analyzing Time Series Data in Process Mining”. In: *Information Systems Engineering in Complex Environments*. Springer, 2015, pp. 68–84. DOI: [10.1007/978-3-319-19270-3_5](https://doi.org/10.1007/978-3-319-19270-3_5)
+
+[21] Karolin Winter and Stefanie Rinderle-Ma. “Discovering Instance-Spanning Constraints from Process Execution Logs”. In: *EDOC 2017*. IEEE, pp. 79–88. DOI: [10.1109/EDOC.2017.20](https://doi.org/10.1109/EDOC.2017.20)
+
+[22] Abdelhak Khemiri et al. “Improving Business Process in Semiconductor Manufacturing by Discovering Business Rules”. In: *WSC 2018*. IEEE, pp. 3441–3448. DOI: [10.1109/WSC.2018.8632509](https://doi.org/10.1109/WSC.2018.8632509)
+
+[23] Adam Banham et al. “xPM: A Framework for Process Mining with Exogenous Data”. In: *Process Mining Workshops*. Springer, 2022, pp. 85–97. DOI: [10.1007/978-3-030-98581-3_7](https://doi.org/10.1007/978-3-030-98581-3_7)
+
+[24] F. Hasić et al. “Decision as a Service (DaaS): A Service-Oriented Architecture Approach for Decisions in Processes”. In: *IEEE Transactions on Services Computing* 15.2 (2022), pp. 904–917. DOI: [10.1109/TSC.2020.2965516](https://doi.org/10.1109/TSC.2020.2965516)
+
+[25] A. Martínez-Rojas et al. “Analyzing Variable Human Actions for Robotic Process Automation”. In: *Business Process Management*. Springer, 2022, pp. 75–90. DOI: [10.1007/978-3-031-16103-2_8](https://doi.org/10.1007/978-3-031-16103-2_8)
+
+[26] Nam Nguyen Chan et al. “Design and deployment of a customer journey management system: the CJMA approach”. In: *ICFNDS 2021*. ACM, 2022, pp. 8–16. DOI: [10.1145/3508072.3508075](https://doi.org/10.1145/3508072.3508075)
+
+[27] Britt Lukassen, Laura Genga, and Yingqian Zhang. “Discovering Explicit Scale-Up Criteria in Crisis Response with Decision Mining”. In: *Learning and Intelligent Optimization*. Springer, 2023, pp. 459–474. DOI: [10.1007/978-3-031-44505-7_31](https://doi.org/10.1007/978-3-031-44505-7_31)
