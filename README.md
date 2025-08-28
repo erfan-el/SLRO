@@ -8,9 +8,9 @@ The [`Competency questions.md`](<Competency questions.md>) file lists a number o
 
 The [`DM-KG_object-properties.md`](<DM-KG_object-properties.md>) provides a detailed overview of the object properties defined in the Ontology.
 
-Checkout [Protégé Tutorial](<Protégé Tutorial/Protégé Tutorial.md>) for a quick tutorial on how to use Protégé to navigate the DM-KG and execute the compentency questions!
+Checkout [Protégé Tutorial](<Protege_Tutorial/Protege_Tutorial.md>) for a quick tutorial on how to use Protégé to navigate the DM-KG and execute the compentency questions!
 
-For details on the methodology used in this study, please refer to the [Research Method](https://github.com/erfan-el/SLRO/blob/main/Research%20Method/Research%20Method.md).
+For details on the methodology used in this study, please refer to the [Research Method](Research_Method/Research_Method.md).
 
 The persistent URL (PURL) are as follows (currently pointing to the same artifact):
 - SLRO: [https://purl.archive.org/slro.owl](https://purl.archive.org/slro.owl)
