@@ -25,7 +25,7 @@ After installing Protégé, you can now open the ontology project.
 3. In the file browser, navigate to the folder where you saved the ontology file.
 4. Select the file named **DM-KG.ttl** and click **Open**.
 
-![Opening ontology in Protégé](https://github.com/erfan-el/SLRO/blob/main/Prot%C3%A9g%C3%A9%20Tutorial/1.%20open-ontology-file.png)
+![Opening ontology in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/1.%20open-ontology-file.png)
 
 > 📁 This file is in Turtle (.ttl) format, which is a standard serialization for RDF/OWL ontologies.
 
@@ -50,7 +50,7 @@ Once the ontology is loaded in Protégé, you can explore its structure using th
 
 You will now see the **class hierarchy** on the **right panel**, which displays all the classes and their subclasses in a tree structure.
 
-![Browsing classes in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/2.%20browse-classes.png)
+![Browsing classes in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/2.%20browse-classes.png)
 
 > 📷 *The image above shows the class hierarchy and other panels related to class exploration.*
 
@@ -76,7 +76,7 @@ In addition to classes, you can also explore the **relationships** (object prope
 - When you click on a specific object property, the **Usage** section on the **right panel** will show where that property is used (e.g., restrictions or individuals).
 - Below that, the **Description** section displays practical details about the selected property.
 
-![Object properties in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/3.%20view-object-properties.png)
+![Object properties in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/3.%20view-object-properties.png)
 
 > 📷 *The image above shows the Object properties tab and the selected property details.*
 
@@ -94,7 +94,7 @@ The other sub-tab under **Entities** is the **Individuals** tab, where you can v
 3. When you click on an individual, the **Usage** section on the **right panel** shows where that individual is used (e.g., in assertions or relationships).
 4. Below that, in the **Description** section, you will see important information about the selected individual.
 
-![Viewing individuals in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/4.%20view-individuals.png)
+![Viewing individuals in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/4.%20view-individuals.png)
 
 > 📷 *The image above shows the Individuals tab and the details of a selected individual.*
 
@@ -118,7 +118,7 @@ Before running any queries in Protégé, you need to activate a **Reasoner**. Th
 1. From the top menu, go to **Reasoner → Start reasoner**.
 2. If this is your first time running it, Protégé will prompt you to choose a reasoner.
 
-![Starting the reasoner in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/5.%20start-reasoner.png)
+![Starting the reasoner in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/5.%20start-reasoner.png)
 
 > 📷 *The image above shows where to start the reasoner from the menu bar.*
 
@@ -139,7 +139,7 @@ To run custom description logic (DL) queries:
 4. Click the **Execute** button below the editor to run your query.
 5. The results will be shown in the **Query Results** section at the bottom.
 
-![DL Query tab in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/6.%20dl-query-tab.png)
+![DL Query tab in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/6.%20dl-query-tab.png)
 
 > 📷 *The image above shows the DL Query tab with the class hierarchy, query input box, and results section.*
 
@@ -161,7 +161,7 @@ For more advanced and precise queries, Protégé also provides a **SPARQL Query*
 3. After writing the query, scroll down to the **bottom of the page** and click the **Execute** button.
 4. The results will appear just above the Execute button (in the bottom half of the screen).
 
-![SPARQL query tab in Protégé](https://raw.githubusercontent.com/erfan-el/SLRO/refs/heads/main/Prot%C3%A9g%C3%A9%20Tutorial/7.%20sparql-query-tab.png)
+![SPARQL query tab in Protégé](https://github.com/erfan-el/SLRO/blob/main/Protege_Tutorial/7.%20sparql-query-tab.png)
 
 > 📷 *The image above shows the SPARQL Query tab, including the input area and results panel.*
 
